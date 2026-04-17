@@ -1,2 +1,35 @@
-/projet.tex
-/cprep.c
+# Build directories
+build/
+dist/
+
+# C/C++ compiled objects and binaries
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Common local executables (if built at repo root)
+cprep
+wade
+
+# Debug/profile artifacts
+*.dSYM/
+*.gcda
+*.gcno
+*.prof
+*.profraw
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*~
+
+# IDE/editor folders
+.vscode/
+.idea/
